@@ -1,0 +1,26 @@
+# Virtual environment
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Data (too large for GitHub)
+data/raw/
+data/processed/
+data/augmented/
+
+# Model weights
+saved_models/
+
+# Reports generated
+reports/history/
+reports/figures/
+
+# Streamlit cache
+.streamlit/
+
+# OS files
+.DS_Store
+Thumbs.db
