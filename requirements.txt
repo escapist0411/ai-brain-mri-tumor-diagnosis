@@ -1,26 +1,31 @@
-# Virtual environment
-.venv/
-env/
+# Core
+python>=3.9
 
-# Python cache
-__pycache__/
-*.pyc
+# Deep Learning
+torch
+torchvision
+torchaudio
 
-# Data (too large for GitHub)
-data/raw/
-data/processed/
-data/augmented/
+# Medical Imaging
+monai
+nibabel
 
-# Model weights
-saved_models/
+# Image Processing
+opencv-python-headless
+numpy
+scikit-learn
 
-# Reports generated
-reports/history/
-reports/figures/
+# Visualization
+matplotlib
+seaborn
 
-# Streamlit cache
-.streamlit/
+# Web App
+streamlit
 
-# OS files
-.DS_Store
-Thumbs.db
+# PDF Reports
+fpdf
+reportlab
+
+# Utilities
+tqdm
+pandas
